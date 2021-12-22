@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton\Singleton.csproj", "{49231C7D-D786-4A42-8605-91A91CC0767A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{68C75268-B190-401A-AE4A-416AB7F8E7D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorySample", "Factory\FactorySample\FactorySample.csproj", "{7108EC2A-34B2-4FD2-AEC2-90E8D393F756}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{49231C7D-D786-4A42-8605-91A91CC0767A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49231C7D-D786-4A42-8605-91A91CC0767A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49231C7D-D786-4A42-8605-91A91CC0767A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7108EC2A-34B2-4FD2-AEC2-90E8D393F756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7108EC2A-34B2-4FD2-AEC2-90E8D393F756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7108EC2A-34B2-4FD2-AEC2-90E8D393F756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7108EC2A-34B2-4FD2-AEC2-90E8D393F756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{49231C7D-D786-4A42-8605-91A91CC0767A} = {2249784B-6ED8-45E7-96E0-C61BD033CF4C}
+		{7108EC2A-34B2-4FD2-AEC2-90E8D393F756} = {68C75268-B190-401A-AE4A-416AB7F8E7D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26FCFC7C-02D3-4500-BEB0-E9AC7C5F1A62}
