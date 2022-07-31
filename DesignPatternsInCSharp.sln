@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example1", "Interface-Segre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{74EB6D0D-50EE-4F4C-AED5-91E8852C6805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Builder\Example\Example.csproj", "{F61D8F08-BA8F-42B0-B018-4E5D8C356B6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Builder\Example\Example.csproj", "{F61D8F08-BA8F-42B0-B018-4E5D8C356B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example3", "Singleton\Example3\Example3.csproj", "{B51239F2-38C7-4302-AAC6-34A9D9096B5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{F61D8F08-BA8F-42B0-B018-4E5D8C356B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61D8F08-BA8F-42B0-B018-4E5D8C356B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61D8F08-BA8F-42B0-B018-4E5D8C356B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51239F2-38C7-4302-AAC6-34A9D9096B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51239F2-38C7-4302-AAC6-34A9D9096B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51239F2-38C7-4302-AAC6-34A9D9096B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51239F2-38C7-4302-AAC6-34A9D9096B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{0BDD0ABD-7704-49D9-851F-E90921395014} = {4F8A4105-EBBA-4D24-8762-C7BE4A3EED47}
 		{000B5600-A0F3-41BA-A3B6-0A7BDFAA7887} = {0BDD0ABD-7704-49D9-851F-E90921395014}
 		{F61D8F08-BA8F-42B0-B018-4E5D8C356B6B} = {74EB6D0D-50EE-4F4C-AED5-91E8852C6805}
+		{B51239F2-38C7-4302-AAC6-34A9D9096B5F} = {2249784B-6ED8-45E7-96E0-C61BD033CF4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26FCFC7C-02D3-4500-BEB0-E9AC7C5F1A62}
